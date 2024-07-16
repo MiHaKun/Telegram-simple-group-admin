@@ -1,0 +1,31 @@
+# 基本配置
+app_name = "chat_group_admin_bot"
+bot_token = "73279zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzOAhBywew"
+# 测试机器人为：
+# https://t.me/chat_group_admin_bot
+# 测试群组为：
+# https://t.me/miha_groupmanager_bot_test
+# 其中，测试群组的最早消息为群组的一些基本信息，包括群组ID等。
+
+# 业务配置
+# 管理员/技术支持人员的用户名，方便用户联系
+contact_username = "MrMiHa"
+
+# 首次加入群组的时候显示的提示消息。注意其中的 {} 会被替换为用户的名字
+msg_new_user_joined_group = "欢迎新成员 {} 加入本群！\n你的权限已经被限制。请点击下方按钮，按照指示解锁权限。\n请注意，时间有效期是180s。如果期间内并未按要求完成验证，则会被踢出群组。\n\n       👇👇点击👇👇"
+
+# 如果用户多久没有成功验证，就会被踢出群组
+# 原需求 60s 实际上过于短了。个人建议180s比较合适。
+ban_after = 60
+
+
+# 功能配置
+# 是否删除 xxx加入群组 xxx离开群组的消息。这是群管机器人的基本功能，所以随手加了。
+delete_service_message = true
+
+# 各类内置ID可以通过 @GetTheirIDBot 获取
+# 管理群组的ID
+group_id = -1002226718611
+
+# 管理员的ID
+admin_ids = [123456789, 530586633]
