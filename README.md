@@ -56,3 +56,14 @@ python -m Telegram-simple-group-admin
 ```
 
 **PS:** 正式运营，还是需要类似`PM2`、`supervisor`之类的进程管理工具，配合看门狗来实现不间断运行、自动重启、失效重启等功能。 
+
+
+## 关于
+
+- 本产品基于Apache协议开源。
+- 作者 米哈( @MrMiHa )是一个苦逼程序员，不是煤场奴工，有问题别太理直气壮的跑来下命令。
+- 讨论群组是 : https://t.me/DeveloperTeamGroup 欢迎加入后玩耍
+- 随意Fork，记得保留`关于`的内容。
+- 初版写了2小时。喜欢请打赏。不会部署，群里找我。
+- 服务器推荐RackNerd的。实际上，我也确实用这个。够便宜。这款就够：[2核3G--年27刀](https://my.racknerd.com/aff.php?aff=11705&pid=828) 
+- 实在搞不定部署，可以群里找大家帮忙部署下。服务器也可以找大家共用： https://t.me/DeveloperTeamGroup 
