@@ -137,7 +137,7 @@ async def start_with_deep_link(update: Update, context: ContextTypes.DEFAULT_TYP
     sent = await context.bot.send_photo(
         user.id,
         photo,
-        f"{mention_html(user.id, user.first_name)}请选择图片中的文字。回答错误将入群。",
+        f"{mention_html(user.id, user.first_name)}请选择图片中的文字。回答错误永久禁止入群。",
         reply_markup=InlineKeyboardMarkup(button_matrix),
         parse_mode="HTML",
     )
